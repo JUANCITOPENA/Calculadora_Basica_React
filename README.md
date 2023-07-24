@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## Este proyecto se ha creado con Create React App.
+Este proyecto se ha creado con Create React App.
 
 ## Scripts Disponibles
 
