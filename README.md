@@ -1,5 +1,67 @@
 # Getting Started with Create React App
 
+## Este proyecto se ha creado con Create React App.
+
+## Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+
+## npm start
+Ejecuta la aplicación en modo de desarrollo.
+Abre http://localhost:3000 para verla en tu navegador.
+
+La página se recargará automáticamente cuando realices cambios.
+También podrás ver errores de lint en la consola.
+
+## npm test
+Inicia el corredor de pruebas en modo interactivo.
+Consulta la sección sobre cómo ejecutar pruebas para obtener más información.
+
+## npm run build
+Construye la aplicación para producción en la carpeta 'build'.
+Empaqueta correctamente React en modo de producción y optimiza la construcción para obtener el mejor rendimiento.
+
+La construcción está minificada y los nombres de archivo incluyen los hashes.
+¡Tu aplicación está lista para ser desplegada!
+
+## Consulta la sección sobre despliegue para obtener más información.
+
+## npm run eject 
+Nota: esta operación es irreversible. ¡Una vez realizado el "eject", no podrás deshacerlo!
+
+Si no estás satisfecho con la herramienta de construcción y las opciones de configuración, puedes ejecutar "eject" en cualquier momento. Este comando eliminará la única dependencia de construcción de tu proyecto.
+
+En su lugar, copiará todos los archivos de configuración y dependencias transitivas (webpack, Babel, ESLint, etc.) directamente en tu proyecto para que tengas un control total sobre ellos. Todos los comandos, excepto "eject", seguirán funcionando, pero apuntarán a los scripts copiados para que puedas personalizarlos. En este punto, estarás por tu cuenta.
+
+No es obligatorio ejecutar "eject". La selección de características ofrecida es adecuada para implementaciones pequeñas y medianas, y no deberías sentirte obligado a utilizar esta función. Sin embargo, comprendemos que esta herramienta no sería útil si no pudieras personalizarla cuando estés listo para hacerlo.
+
+## Aprende Más
+Puedes obtener más información en la documentación de Create React App: Create React App documentation.
+
+Para aprender React, visita la documentación de React: React documentation.
+
+## Code Splitting
+Esta sección se ha movido aquí: Code Splitting.
+
+## Analizando el Tamaño del Paquete
+Esta sección se ha movido aquí: Analizando el Tamaño del Paquete.
+
+## Creando una Progressive Web App
+Esta sección se ha movido aquí: Creando una Progressive Web App.
+
+## Configuración Avanzada
+Esta sección se ha movido aquí: Configuración Avanzada.
+
+## Despliegue
+Esta sección se ha movido aquí: Despliegue.
+
+## Error al Minificar con npm run build
+Esta sección se ha movido aquí: Error al Minificar con npm run build.
+
+
+## En Inglesh:
+# Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
