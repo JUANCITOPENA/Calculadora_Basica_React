@@ -1,0 +1,69 @@
+/* Estilos para la clase .app */
+.app {
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilos para los elementos h1 */
+h1 {
+  font-size: 28px; /* Tamaño de fuente de 28 píxeles */
+  margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+  color: #333; /* Color del texto en tono de gris oscuro (#333) */
+}
+
+/* Estilos para la clase .calculator */
+.calculator {
+  width: 240px; /* Ancho de 240 píxeles */
+  margin: 0 auto; /* Margen horizontal automático para centrar en el contenedor padre */
+  padding: 20px; /* Relleno interno de 20 píxeles */
+  border: 1px solid #ccc; /* Borde de 1 píxel de ancho y color gris (#ccc) */
+  border-radius: 5px; /* Bordes redondeados con un radio de 5 píxeles */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra debajo del elemento */
+  font-family: Arial, sans-serif; /* Fuente Arial o fuente genérica sans-serif */
+}
+
+/* Escala para pantallas grandes */
+@media (min-width: 768px) {
+  .calculator {
+    width: 270px; /* Ancho de 270 píxeles en pantallas grandes */
+  }
+}
+
+/* Escala para dispositivos móviles */
+@media (max-width: 767px) {
+  .calculator {
+    width: 90%; /* Ancho del 90% del contenedor en dispositivos móviles */
+  }
+}
+
+/* Estilos para la clase .display */
+.display {
+  height: 40px; /* Altura de 40 píxeles */
+  font-size: 24px; /* Tamaño de fuente de 24 píxeles */
+  text-align: right; /* Alineación del texto a la derecha */
+  padding: 5px; /* Relleno interno de 5 píxeles */
+  border: 1px solid #ccc; /* Borde de 1 píxel de ancho y color gris (#ccc) */
+  border-radius: 5px; /* Bordes redondeados con un radio de 5 píxeles */
+  margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+}
+
+/* Estilos para la clase .buttons */
+.buttons {
+  display: grid; /* Mostrar los elementos como una cuadrícula */
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas con tamaño igual */
+  grid-gap: 5px; /* Espacio de 5 píxeles entre los elementos de la cuadrícula */
+}
+
+/* Estilos para los elementos button */
+button {
+  height: 40px; /* Altura de 40 píxeles */
+  font-size: 18px; /* Tamaño de fuente de 18 píxeles */
+  background-color: #f0f0f0; /* Color de fondo en tono de gris claro (#f0f0f0) */
+  border: 1px solid #ccc; /* Borde de 1 píxel de ancho y color gris (#ccc) */
+  border-radius: 5px; /* Bordes redondeados con un radio de 5 píxeles */
+  cursor: pointer; /* Cambiar el puntero del cursor a una mano (cursor de clic) */
+}
+
+/* Estilos para los elementos button cuando se pasa el cursor sobre ellos */
+button:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo a un tono de gris más oscuro (#e0e0e0) */
+}
